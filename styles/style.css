@@ -1,0 +1,89 @@
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.306), rgba(0, 0, 0, 0.306)), url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 144px 0;
+    text-align: center;
+    color: #ffffff;   
+}
+header h1{
+    font-size: 45px;
+}
+
+.discount-section{
+    text-align: center;
+}
+.discount-section>h2{
+    color: #F00;
+    font-size: 50px;
+    font-weight: 600;
+}
+.discount-section-focus{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+.product-portfolio-section{
+    width: 80%;
+    margin: 50px auto;
+}
+.portfolio-section-text{
+    text-align: start;
+    width: 60%;
+}
+.portfolio-section-text-decor{
+    color: #F00;
+}
+.product-image-section{
+    display: flex;
+}   
+.products img{
+    width: 350px;
+    height: 370px;
+}
+.products div{
+    width: 350px;
+    height: 370px;
+    border-radius: 16px;
+}
+#image-1{
+    background-image: url(../resources/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image-2{
+    background-image: url(../resources/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.newsletter{
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 80px 0;
+    text-align: center;
+   }
+.newsletter img{
+
+} 
+#input-1{
+ font-size: 30px;
+ border-radius: 20PX 0 0 20PX ;
+ padding: 5PX 20PX;
+ border: none;
+}
+#input-2{
+    font-size: 30px;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius: 0 20PX 20PX 0 ;
+    padding: 5PX 20PX;
+    border: none;
+    color: #ffffff;
+} 
