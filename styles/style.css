@@ -26,6 +26,56 @@ header h1{
     font-weight: 600;
     margin: 0;
 }
+.coming-soon{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        gap: 25px;
+}
+.coming-soon div{
+     width: 300px;
+}
+.coming-soon-img{
+    background-image: url(../resources/Ellipse\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid;
+    height: 300px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    border-color: #F00;
+    border-radius: 50%;
+    border
+}
+.midnight-party{
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.081)), url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;  
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding: 50px 50px  ;
+    gap: 80px;
+    justify-content: space-evenly;
+}
+.midnight-party>div {
+ align-items: center;
+}
+.midnight-party>div h2 {
+    font-size: 50px;
+   }
+.midnight-party>div a {
+    text-decoration: none;
+    color: #ffffff;
+   }
 .product-portfolio-section{
     width: 80%;
     margin: 50px auto;
@@ -69,10 +119,7 @@ header h1{
     border-radius: 20px;
     padding: 80px 0;
     text-align: center;
-   }
-.newsletter img{
-
-} 
+}
 #input-1{
  font-size: 30px;
  border-radius: 20PX 0 0 20PX ;
@@ -87,3 +134,31 @@ header h1{
     border: none;
     color: #ffffff;
 } 
+ footer{
+    background-color: black;
+    padding: 100px;
+    color: #ffffff;
+    margin-top: 50px;
+ }
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-details div{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.contact-details div> img{
+    width: 25px;
+    height: 25px;
+    }
+.social-links{
+    text-align: center;
+    margin: 50px 0;
+}   
+ .copyright-section{
+    display: flex;
+    justify-content: space-between;
+ }
