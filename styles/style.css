@@ -48,10 +48,9 @@ header h1{
     align-items: center;
     border-color: #F00;
     border-radius: 50%;
-    border
 }
 .midnight-party{
-    background-image:linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.081)), url(../resources/Vectorrr.png);
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.081)), url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 80%;
@@ -89,28 +88,111 @@ header h1{
 }
 .product-image-section{
     display: flex;
+    gap: 20px;
 }   
-.products img{
-    width: 350px;
-    height: 370px;
-}
+
 .products div{
     width: 350px;
     height: 370px;
     border-radius: 16px;
+    margin-bottom: 20px;
 }
+
 #image-1{
     background-image: url(../resources/Rectangle\ 7.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
+#image-1 p, #image-1 h4, #image-1 img  {
+display: none;
+}
+#image-1:hover p, #image-1:hover h4, #image-1:hover img{
+    display: block;
+}
+#image-1:hover{
+    background-image: none;
+}
+
+
+
 #image-2{
     background-image: url(../resources/Rectangle\ 8.png);
     background-repeat: no-repeat;
     background-size: contain;
-
+}
+#image-2 p, #image-2 h4, #image-2 img  {
+display: none;
+}
+#image-2:hover p, #image-2:hover h4, #image-2:hover img{
+    display: block;
+}
+#image-2:hover{
+    background-image: none;
 }
 
+
+#image-3{
+    background-image: url(../resources/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image-3 p, #image-3 h4, #image-3 img  {
+display: none;
+}
+#image-3:hover p, #image-3:hover h4, #image-3:hover img{
+    display: block;
+}
+#image-3:hover{
+    background-image: none;
+}
+
+
+#image-4{
+    background-image: url(../resources/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image-4 p, #image-4 h4, #image-4 img  {
+display: none;
+}
+#image-4:hover p, #image-4:hover h4, #image-4:hover img{
+    display: block;
+}
+#image-4:hover{
+    background-image: none;
+}
+
+
+#image-5{
+    background-image: url(../resources/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image-5 p, #image-5 h4, #image-5 img  {
+display: none;
+}
+#image-5:hover p, #image-5:hover h4, #image-5:hover img{
+    display: block;
+}
+#image-5:hover{
+    background-image: none;
+}
+
+
+#image-6{
+    background-image: url(../resources/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image-6 p, #image-6 h4, #image-6 img  {
+display: none;
+}
+#image-6:hover p, #image-6:hover h4, #image-6:hover img{
+    display: block;
+}
+#image-6:hover{
+    background-image: none;
+}
 
 .newsletter{
     background-color: rgba(255, 0, 0, 0.05);
